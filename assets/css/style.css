@@ -288,3 +288,37 @@ textarea{
       left: 18px;
   }
 }
+
+@media screen and (max-width:640px){
+    .heading{
+        height: 120px;
+        width: 550px;
+    }
+
+    .logo{
+        position: static;
+        width: 520px;
+        height: auto;
+        text-align: center;
+        left: 0;
+    }
+
+    .buttons{
+        top: 85px;
+        left: 160px;
+    }
+
+    .about-me{
+        width: 450px;
+        height: 800px;
+        left: 35px;
+        
+    }
+
+    #prof1{
+        margin-left: 70px;
+    }
+
+
+
+}

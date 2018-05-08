@@ -297,7 +297,7 @@ textarea{
 
     .logo{
         position: static;
-        width: 520px;
+        width: 550px;
         height: auto;
         text-align: center;
         left: 0;
@@ -309,8 +309,8 @@ textarea{
     }
 
     .about-me{
-        width: 450px;
-        height: 800px;
+        width: 480px;
+        height: 900px;
         left: 35px;
         
     }
@@ -319,6 +319,72 @@ textarea{
         margin-left: 70px;
     }
 
+    .portfolio{
+        position: relative;
+        width: 480px;
+        height: 600px;
+        left: 35px;
+    }
 
+    img{ 
+        width: 200px;
+        height: 132px;
+    }
 
+    .title{
+        width: 200px;
+        height: 40px;
+    }
+
+    .middleEarth{
+    position: relative;
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+.fiveOClock{
+   position: relative;
+   margin: 5px 0 0 10px; 
+   left: 0;
+   bottom: 0;
+   float: left;
+}
+
+.plant{
+    position: relative;
+    margin: 0 0 0 20px;
+    bottom: 0px;
+    float: left;
+}
+
+.disposable{
+    position: relative;
+    margin: 0 0 0 10px;
+    left: 0px;
+    bottom: 0px;
+    float: left;
+}
+
+.squirrel{
+    position: relative;
+    margin: 0 0 0 20px;
+    bottom: 0px;
+    float: left;  
+}
+
+.contact{
+    position: relative;
+    width: 480px;
+    left: 35px;
+}
+
+.form{
+    position: relative;
+    top: 4px;
+}
+
+textarea{
+    position: relative;
+    top: 7px;
+}
 }

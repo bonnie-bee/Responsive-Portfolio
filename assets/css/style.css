@@ -1,0 +1,246 @@
+/*~~~~~~~~~~~~~~~~~~~~~~  Header - All pages  ~~~~~~~~~~~~~~~~~~~~~*/
+
+body {
+    background-image: url(../images/45degreee_fabric_@2X.png)
+}
+
+.heading{
+    position: relative;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: thin solid;
+    height: 85px;
+}
+
+.together{
+    position: relative;
+    width: 960px;
+    height: 85px;
+    left: 18%;
+}
+
+.logo{ 
+    position: absolute;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #fff;
+    width: 170px;
+    height: 60px;
+    bottom: 0px;
+    left: 0;
+    line-height: 65px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-group{
+    position: absolute;
+    top: 60%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    right: 0;
+}
+
+a{
+    color: #777777;
+    text-decoration: none;
+}
+
+#about{
+    margin-right: 20px;
+}
+
+#portfolio{
+    margin-right: 20px;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~  About Me  ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.about-me{
+    position: relative;
+    width: 960px;
+    height: 500px;
+    background-color: #ffffff;
+    left: 18%;
+    top: 20px;  
+}
+
+#me{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: medium solid #dddddd;
+}
+
+#prof1{
+    background-image: url("../images/profPic.png");
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+#prof1:hover{
+    background-image: url('../images/lionPic.jpg');
+}
+
+p {
+    color: #777777; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 30px;
+    margin: 20px;
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Portfolio ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.portfolio{
+    position: relative;
+    width: 960px;
+    height: 800px;
+    background-color: #ffffff;
+    left: 18%;
+    top: 20px;
+}
+
+#h1port{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: medium solid #dddddd;
+}
+
+.pics{
+    position: relative;
+    width: 960px;
+    height: 800px;
+}
+.middleEarth{
+    position: relative;
+    margin:40px 20px;
+}
+
+.fiveOClock{
+   position: relative;
+   margin: 40px 20px; 
+   left: 315px;
+   bottom: 335px;
+}
+
+.plant{
+    position: relative;
+    margin:40px 20px;
+    bottom: 450px;
+}
+
+.disposable{
+    position: relative;
+    margin:40px 20px;
+    left: 315px;
+    bottom: 785px;
+}
+
+.squirrel{
+    position: relative;
+    margin:40px 20px;
+    bottom: 900px;  
+}
+
+img{
+    width: 280px;
+    height: 187px;
+    overflow: hidden;
+}
+
+.title{
+    position: relative;
+    width: 280px;
+    height: 50px;
+    background-color: #4aaaa5;
+    color: #fff;
+    line-height: 45px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    bottom: 60px;
+    text-align: center;
+}
+ 
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~  Contact ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.contact{
+    position: relative;
+    width: 960px;
+    height: 500px;
+    background-color: #ffffff;
+    left: 18%;
+    top: 20px;  
+}
+
+#formHeader{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 25px;
+    padding: 20px;
+    border-bottom: medium solid #dddddd;
+}
+
+.form{
+    padding: 20px;
+    color: #777777; 
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+label{
+    padding-bottom: 40px;
+}
+
+.form{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+    margin: 8px 0;
+}
+
+.submit{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 80px;
+    height: 30px;
+    border: none;
+    
+}
+
+/*~~~~~~~~~~~~~~~~~~~~ Footer - Every Page ~~~~~~~~~~~~~~~~~~~~*/
+
+.footer{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #666666;
+    border-top: thick solid #4aaaa5;
+    bottom: 0;
+}
+
+.p3{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~ Media Queries ~~~~~~~~~~~~~~~~~~~~~~~~*/
